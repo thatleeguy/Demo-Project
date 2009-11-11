@@ -1,0 +1,149 @@
+body {
+	background: #444 url('../gfx/bg.png') top repeat-x;
+	font: 14px/140% 'Lucida Grande', 'Trebuchet MS', Verdana, Arial, sans-serif; 
+	color: #ddd;
+	margin: 30px;
+}
+#wrapper {
+	width: 760px;
+	margin: auto;
+}
+form, input, textarea, select {
+	margin: 0;
+}
+form#wee_form {
+	margin: 20px 0;
+	background: url('../gfx/bg_form.png') top left no-repeat;
+	padding: 28px 20px 31px 158px;
+}
+form#wee_form input#url {
+	padding: 3px 0; 
+	font-size: 20px;
+	width: 490px;
+	border: 0;
+	background: #fff url('../gfx/bg_input.png') top left no-repeat;
+}
+
+fieldset {
+	border: 1px solid #999;
+	padding: 10px 10px 15px 10px;
+	margin: 15px 0;
+}
+
+img {
+	border: 0;
+}
+hr {
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #666;
+	margin: 15px 0;
+}
+a {
+	color: #6bb6cc;
+}
+a:hover {
+	color: #37a;
+	text-decoration: none;
+}
+
+code {
+	font-family: Monaco, 'Courier New', Verdana, Sans-serif;
+	font-size: 14px;
+	display: block;
+	margin: 5px 0px 5px 0px;
+	padding: 5px 10px;
+	font-style: bold;
+	background: #121212;
+}
+code.framed {
+	background: #333;
+	color: #ccc;
+	font-size: 12px;
+	color: #ccc;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+div#results {
+	border: 3px solid #666;
+	background: #232323;
+	padding: 10px;
+}
+div#results p {
+	margin: 20px 0;
+}
+div#results code {
+	overflow: hidden;
+	
+	margin: 10px 0;
+}
+
+h1 {
+ 	color: #222;
+	font-size: 28px;
+	font-weight: normal;
+	margin: 15px 0;
+	font: bold 30px 'Trebuchet MS', Verdana, Arial, sans-serif;
+}
+h3 {
+ 	color: #6bb6cf;
+	margin: 10px 0;
+	font: bold 18px 'Trebuchet MS', Verdana, Arial, sans-serif;
+}
+p {
+	margin: 10px 0;
+}
+table {
+	margin: 20px 0;
+	border: 0;
+	border-spacing: 1px;
+	width: 100%;
+	background: #ccc;
+}
+table tr th {
+	background: #ddd;
+	text-align: left;
+	padding: 5px;
+}
+table tr td {
+	background: #fff;
+	padding: 5px;
+	vertical-align: top;
+}
+
+.small {
+	font-size: 12px;
+	line-height: 120%;
+}
+.tiny {
+	font-size: 11px;
+	line-height: 100%;
+}
+.light {
+	color: #999;
+}
+.dark {
+	color: #222;
+}
+.centered {
+	text-align: center;
+}
+.red {
+	color: red;
+}
+.green {
+	color: green;
+}
+.noline {
+	text-decoration: none;
+}
+.tight {
+	margin: 0;
+}
+div.error {
+	width: auto;
+	background: #c00;
+	color: #fff;
+	font-size: smaller;
+	padding: 2px 5px;
+}
